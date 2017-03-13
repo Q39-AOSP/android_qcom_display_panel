@@ -1559,7 +1559,7 @@ sub printSectionHeader
 sub printheader
 {
 	my $fh = shift;
-	print $fh "/* Copyright (c) 2013, The Linux Foundation. All rights reserved.\n";
+	print $fh "/* Copyright (c) 2017, The Linux Foundation. All rights reserved.\n";
 	print $fh " *\n";
 	print $fh " * Redistribution and use in source and binary forms, with or without\n";
 	print $fh " * modification, are permitted provided that the following conditions\n";
@@ -1600,7 +1600,7 @@ sub printdtsheader
 	my $fh = shift;
 	my $name = shift;
 
-	print $fh "/* Copyright (c) 2013, The Linux Foundation. All rights reserved.\n";
+	print $fh "/* Copyright (c) 2017, The Linux Foundation. All rights reserved.\n";
 	print $fh " *\n";
 	print $fh " * This program is free software; you can redistribute it and/or modify\n";
 	print $fh " * it under the terms of the GNU General Public License version 2 and\n";
