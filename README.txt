@@ -32,6 +32,16 @@ DAMAGE.
 -------------------------------------------------------------
 
 
+Establishing a Build Environment
+----------
+Installing perl
+dpkg/apt:(sudo) apt(-get) install perl
+rpm/yum:(sudo) yum install perl
+
+Installing XML::LibXML
+dpkg/apt:(sudo) apt(-get) install libxml-libxml-perl
+rpm/yum:(sudo) yum install "perl(XML::LibXML)"
+
 Introduction
 ----------
 README.txt describes the parser usage for display component in
