@@ -1,4 +1,5 @@
 Copyright (c) 2013, The Linux Foundation. All rights reserved.
+Copyright (c) 2017, lrinQVQ  (lrin)
 
 Redistribution and use in source form and compiled forms (SGML, HTML,
 PDF, PostScript, RTF and so forth) with or without modification, are
@@ -57,6 +58,17 @@ command: perl parser.pl <.xml> <panel/platform>
 Next two sections descrbe the usage of parser script for xml files
 preset in this folder. User can follow same for their own panel
 or target files.
+
+Generate Q39 Panel dtsi/header file
+---------------------------
+User should use below command to generate the Q39 panel dtsi/header file for
+panel_nt35596_1080p_skuk_pwm_video.xml panel_nt35596_1080p_skuk_video.xml and more. These xml file will part of this folder.
+
+#perl "xml file name" panel
+
+It generates "xml file name".dtsi and "xml file name".h files. Dtsi file should be copied to dts folder in kernel while header
+file should be copied to bootloader GCDB header file database.
+
 
 
 Generate Panel dtsi/header file
