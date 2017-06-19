@@ -64,7 +64,7 @@ Generate Q39 Panel dtsi/header file
 User should use below command to generate the Q39 panel dtsi/header file for
 panel_nt35596_1080p_skuk_pwm_video.xml panel_nt35596_1080p_skuk_video.xml and more. These xml file will part of this folder.
 
-#perl "xml file name" panel
+#perl parser.pl "xml file name" panel
 
 It generates "xml file name".dtsi and "xml file name".h files. Dtsi file should be copied to dts folder in kernel while header
 file should be copied to bootloader GCDB header file database.

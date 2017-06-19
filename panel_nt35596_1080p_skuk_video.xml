@@ -620,12 +620,12 @@
 	<TClkPre>0x38</TClkPre>
 
 	<!-- Backlight -->
-	<BLInterfaceType>1</BLInterfaceType>
+	<BLInterfaceType>2</BLInterfaceType>
 	<BLMinLevel>1</BLMinLevel>
 	<BLMaxLevel>255</BLMaxLevel>
 	<BLStep>100</BLStep>
-	<BLPMICModel>"PMIC_8941"</BLPMICModel>
-	<BLPMICControlType>1</BLPMICControlType>
+	<BLPMICModel>"0"</BLPMICModel>
+	<BLPMICControlType>2</BLPMICControlType>
 	<BlPMICPwmFrequency>50</BlPMICPwmFrequency>
 	<BlOMICBankSelect>0</BlOMICBankSelect>
 
@@ -634,7 +634,7 @@
 		<PinState1>1</PinState1>
 		<PulseWidth1>20</PulseWidth1>
 		<PinState2>0</PinState2>
-		<PulseWidth2>40</PulseWidth2>
+		<PulseWidth2>20</PulseWidth2>
 		<PinState3>1</PinState3>
 		<PulseWidth3>20</PulseWidth3>
 		<EnableBit>2</EnableBit>
