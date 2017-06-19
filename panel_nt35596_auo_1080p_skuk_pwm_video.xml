@@ -31,8 +31,8 @@
 
 <GCDB>
   <Version>"1.0"</Version>
-  <PanelId>nt35596-auo_1080p-skuk-video</PanelId>
-  <PanelH>nt35596_auo_1080p_skuk_video</PanelH>
+  <PanelId>nt35596-auo_1080p-skuk-pwm-video</PanelId>
+  <PanelH>nt35596_auo_1080p_skuk_pwm_video</PanelH>
   <PanelEntry>
 
 	<!-- Panel configuration -->
